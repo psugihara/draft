@@ -1,11 +1,11 @@
 draft
 =====
 
-Draft is a simple node module for triggering changes on the client after files change on the server.
-
-In an Express app, draft looks something like this on the server:
+Draft is a simple node module for triggering changes on the client after files change on an Express server.
 
 ### Easy mode ###
+
+Draft looks something like this on the server:
 
 ```js
 var draft = require('draft')(app);
